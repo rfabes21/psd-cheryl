@@ -6,12 +6,6 @@ var modals = require('built/app/modals');
 var activity = require('built/app/activity');
 var keys = require('built/app/keys');
 
-
-var MySampleView        = require('app/sample/views').MySampleView;
-var MyModalView         = require('app/sample/views').MyModalView;
-var Model               = require('backbone').Model;
-
-
 var ApplicationDelegate = marionette.Controller.extend({
 
     initialize: function(options){

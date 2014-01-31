@@ -1,0 +1,80 @@
+//
+// Typography
+// ---------------------------
+
+// Links
+// -------------------------
+a {
+    color: $linkColor;
+    text-decoration: none;
+    &:hover {
+        color: $linkColorHover;
+    }
+}
+
+// Body text
+// -------------------------
+p {
+    margin: 0 0 $baseLineHeight / 2;
+    font-family: $ProximaRegular;
+    font-size: 20px;
+    position: relative;
+
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
+
+// Emphasis & Misc
+// -------------------------
+small { font-size: 85%; }
+strong { font-weight: bold; }
+em { font-style: italic; }
+cite { font-style: normal; }
+
+
+// Headings
+// -------------------------
+h1, h2, h3, h4, h5, h6 {
+
+
+}
+h1 {
+
+
+}
+h2 {
+
+}
+
+h3{
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+// Horizontal rules
+hr {
+
+}
+
+// Addresses
+address {
+    display: block;
+    margin-bottom: $baseLineHeight;
+    font-style: normal;
+    line-height: $baseLineHeight;
+}
