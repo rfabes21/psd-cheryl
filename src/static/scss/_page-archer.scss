@@ -8,6 +8,7 @@
 .nav-wrapper {
     height: 11%;    /* 220px / 2000px */
     width: 100%;
+    position: relative;
 
     li {
         float: left;
@@ -105,14 +106,61 @@
 .nav-splitter {
     height: 125px;
     width: 100%;
+
+    .tune-in {
+        width: 235px;
+        position: relative;
+        top: 40px;
+    }
+
+    .adspace-header {
+        width: 725px;
+        height: 86px;
+        position: relative;
+        left: 245px;
+        bottom: 30px;
+        background-color:$pink; /*placeholder*/
+    }
 }
 
 .archer-navbar {
     height: 50px;
+    width: 200%;
     background-color: $pink;
+    font-family: $ProximaSemiBold;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    left: -50%;
+
+    .active-navitem {
+        background-color: $white;
+        color: $pink;
+    }
+
+    li {
+        padding: 0 20px;
+        line-height: 50px;
+        margin-top: -18px;
+
+        &:hover {
+            background-color: $white;
+            color: $pink;
+        }
+    }
+
+    a {
+        color: $white;
+        text-transform: uppercase;
+    }
 }
 
-
+.center-page-split {
+    height: 22.25%;
+    width: 100%;
+    background-image: url('cheryl-judy.png');
+}
 
 
 

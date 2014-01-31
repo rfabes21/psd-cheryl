@@ -21,7 +21,7 @@ $ui-sprite-dimensions: true;
 @import "type"; // Base typography
 
 // Components
-
+@import "mixins";
 
 // Page Specific
 @import "page-archer"; // Archer Page
